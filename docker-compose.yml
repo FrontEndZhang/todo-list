@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  todo-list-front-end:
+    build: ./
+    image: todo-list-front:latest
+    ports:
+      - 8080:80
